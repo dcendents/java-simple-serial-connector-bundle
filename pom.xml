@@ -26,7 +26,7 @@
                     		jssc.*
                     	</Export-Package>
                     	<Bundle-NativeCode>
-							libs/linux/libjSSC-2.8_armhf.so; processor=arm; osname=Linux; selection-filter="(org.apache.felix.processor.feature=vfp)",
+							libs/linux/libjSSC-2.8_armhf.so; osname=Linux; processor=arm,
 							libs/linux/libjSSC-2.8_armsf.so; osname=Linux; processor=arm,
 							libs/linux/libjSSC-2.8_x86_64.so; osname=Linux; processor=x86_64,
 							libs/linux/libjSSC-2.8_x86.so; osname=Linux; processor=x86,
